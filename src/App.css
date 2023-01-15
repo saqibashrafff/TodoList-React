@@ -1,38 +1,73 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #171923;
+  padding-top: 100px;
+}
+
+/* .divi {
+  background-color: blue;
+} */
+
+.MainDiv{
+
+  width: 50%;
+  margin: auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  color: rgb(230, 121, 81);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.InputDiv {
+  margin: 40px 0;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.taskInput{
+  padding: 15px 20px;
+  background-color: #2a2b31;
+  border: 1px hidden ;
+  margin-right: 10px;
+  border-radius: 5px;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.addButton {
+  padding: 15px 30px;
+  background-color: #a8dcfa;
+  border-radius: 5px;
+  border: 1px solid #a8dcfa;
+}
+
+.DelButton {
+  padding: 10px 30px;
+  background-color: #a8dcfa;
+  border-radius: 5px;
+  border: 1px solid #a8dcfa;
+  margin: 40px 0 50px 0;
+}
+
+/* Text Area */
+
+.textDiv {
+  width: 70%;
+  margin: 10px auto auto auto;
+  padding: 20px 0;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.icons {
+  background-color: white;
+  border: 1px hidden transparent;
+  padding: 3px;
+  border-radius: 50px; 
 }
